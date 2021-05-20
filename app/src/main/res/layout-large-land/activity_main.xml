@@ -8,29 +8,37 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_bienbenido"
         android:textColor="@color/white"
-        android:textSize="55dp"
+        android:textSize="56sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        app:layout_constraintHorizontal_bias="0.529"
         />
+
 
     <Button
         android:id="@+id/button"
-        style="@android:style/DeviceDefault.Light.ButtonBar"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:background="#30a4ff"
-        android:shadowColor="@android:color/background_light"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:text="@string/btn_nombre"
-        android:textColor="#ffffff"
-        android:textSize="20dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="90dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:background="@color/color_buttom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:shadowColor="@color/white"
+
         />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

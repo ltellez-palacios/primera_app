@@ -2,5 +2,5 @@
 <resources>
     <string name="app_name">erste_app</string>
     <string name="app_bienbenido">Willkommen</string>
-    <string name="btn_nombre">Eingeben</string>
+    <string name="btn_nombre">Betreten</string>
 </resources>
